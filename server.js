@@ -6,7 +6,6 @@ const { userModel, todoModel } = require('./db.js');
 const mongoose = require("mongoose")
 const { jwt_secret, auth } = require('./auth.js');
 const schema = mongoose.Schema;
-// const objectId = mongoose.Types.ObjectId;
 app.use(express.json());
 
 async function monogoConnect() {
